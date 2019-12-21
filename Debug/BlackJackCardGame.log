@@ -1,3 +1,3 @@
 ﻿  BlackJackCardGame.cpp
-D:\Education_Step\C++\Projects\BlackJackCardGame\BlackJackCardGame.cpp(87,13): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Education_Step\C++\Projects\BlackJackCardGame\BlackJackCardGame.cpp(84,13): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   BlackJackCardGame.vcxproj -> D:\Education_Step\C++\Projects\BlackJackCardGame\Debug\BlackJackCardGame.exe

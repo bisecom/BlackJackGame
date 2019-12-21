@@ -40,8 +40,6 @@ public:
 		answer = ' ';
 		// { "2","3","4","5","6","7","8","9","10","J","Q","K","A" };
 		// { "\x05","\x04","\x03","\x06" };//?????, ?????, ?????, ????
-		//char _names[13][2] ;
-		//char _suits[4][2];
 		strcpy_s(_names[0], "2");
 		strcpy_s(_names[1], "3");
 		strcpy_s(_names[2], "4");
@@ -55,7 +53,6 @@ public:
 		strcpy_s(_names[10], "Q");
 		strcpy_s(_names[11], "K");
 		strcpy_s(_names[12], "A");
-		//char _suits[4][2];
 		char* temp = new char[2];
 		*(temp + 0) = (char)5;//krest
 		*(temp + 1) = '\0';
@@ -98,7 +95,7 @@ public:
 					if (arr_receied_cards[i][j] == 0 && i == temp_suits && j == temp_names)
 					{
 						arr_receied_cards[i][j] = 1;
-						//propisyvaem snachala object tipa CArd, a potom pomechaem ego
+						//propisyvaem snachala object tipa Card, a potom pomechaem ego
 						//v massiv ispol,sovannyh card i index massiva uvelichivaem na 1;
 						current_card.is_card_of_player = players_card;
 						current_card.name = temp_names;
@@ -327,7 +324,6 @@ public:
 //---------------------------------------------------------------------------------
 int main()
 {
-
 	BlackJack A;
 	for (int k = 0; k < 2; k++)
 	{
